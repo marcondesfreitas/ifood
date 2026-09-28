@@ -44,7 +44,7 @@ import { familia, raios } from '@/theme';
  * A comparação é feita em maiúsculas: o campo já converte o que o usuário
  * digita, então "motorista7" também entra.
  */
-const TOKEN_VALIDO = 'MOTORISTA7';
+const TOKEN_VALIDO = 'MOT-S6AZ2N';
 
 const VERMELHO = '#F5001E';
 const TEXTO = '#1A1A1F';
