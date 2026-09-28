@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "IfoodEntregadores",
+    "slug": "entrega-ja",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "entregaja",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "icon": "./assets/icone.png",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#A6123F"
+    },
+    "android": {
+      "package": "com.lucas.entregaja",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icone-adaptativo.png",
+        "backgroundColor": "#EB0033"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lucas.entregaja"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "IfoodEntregadores",
+      "shortName": "IfoodEntregadores",
+      "themeColor": "#EB0033",
+      "backgroundColor": "#A6123F",
+      "display": "standalone",
+      "startUrl": "/"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-status-bar",
+      "expo-splash-screen",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O app precisa acessar suas fotos para você definir a imagem do perfil.",
+          "cameraPermission": "O app precisa da câmera para você tirar a foto do perfil."
+        }
+      ],
+      "expo-audio"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
